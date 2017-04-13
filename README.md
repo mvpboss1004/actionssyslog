@@ -15,7 +15,7 @@ We offer an IntelliJ IDEA projcet. To use SyslogAction (using version 5.2.0 as e
  
 Here is a simple example:
 ```
- PUT _xpackwatcherwatchsyslog_example
+ PUT _xpack/watcher/watch/syslog_example
 {
   "trigger" : {
     "schedule" : { "interval" : "10s" } 
