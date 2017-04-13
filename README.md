@@ -6,7 +6,7 @@ We offer an IntelliJ IDEA projcet. To use SyslogAction (using version 5.2.0 as e
  3. Build the project;
  4. Open X-Pack-5.2.0.jar with ArchieveManager like WinRAR, 7zip;
  5. Copy the generated *.class files into X-Pack-5.2.0.jar according to the path, overwrite the existing ones if needed;
- 6. Replace the original jar in $ES_HOMEpluginsx-pack with the new jar;
+ 6. Replace the original jar in ES_HOME/plugins/x-pack with the new jar;
  7. Download [java-syslog-client-1.0.8.jar](http:maven.aliyun.comnexus#nexus-search;quick~java-syslog-client) and copy it to ES_HOME/plugins/x-pack;
  8. Add the following lien to ES_HOME/plugins/x-pack/plugin-security.policy:
    `permission java.net.SocketPermission "localhost:0", "listen,resolve";`
